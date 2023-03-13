@@ -6,13 +6,18 @@
 	<artifactId>JavaPrograms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-	     <maven.compiler.source>1.8</maven.compiler.source>
-     	     <maven.compiler.target>1.8</maven.compiler.target>
+     		<maven.compiler.source>1.8</maven.compiler.source>
+     		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 	</build>
 	<dependencies>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.1</version>
+		</dependency>	
 	</dependencies>
 </project>
 
